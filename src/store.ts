@@ -11,7 +11,7 @@ type S = {
   // increase: (by: number) => void
 }
 
-const n = 10
+const n = 5
 
 // And it is going to work for both
 const useStore = create<S>((set) => ({
